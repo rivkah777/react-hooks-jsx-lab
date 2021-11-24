@@ -1,9 +1,33 @@
+// import React from "react";
+// import { name, city } from "../data/data.js";
+
+
+// function Home({name,city}) {
+//   // update the JSX being returned!
+//   return <div id="Home">
+//     <h1 style={{color:"firebrick"}}>"{name} is a web Developer from Your {city}"</h1></div>
+    
+   
+  
+  
+  
+
+ 
+  
+    
+// }
+
+// export default Home;
 import React from "react";
 import { name, city } from "../data/data.js";
 
 function Home() {
   // update the JSX being returned!
-  return <div>Home</div>;
+  return (
+    <div id = "home">
+      <h1 style = {{color:"firebrick"}}>{name} is a Web Developer from {city}</h1>
+    </div>
+  );
 }
 
 export default Home;
